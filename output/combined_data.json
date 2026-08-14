@@ -1,0 +1,723 @@
+{
+  "graph": {
+    "user_name": "System Administrator",
+    "first_name": "System",
+    "last_name": "Administrator",
+    "user_type": "Member",
+    "department": null,
+    "manager": null,
+    "employee_details": {
+      "id": "e34b9383-e61a-490f-857e-a9aa84a621ed",
+      "display_name": "System Administrator",
+      "first_name": "System",
+      "last_name": "Administrator",
+      "upn": "admin@MngEnvMCAP874946.onmicrosoft.com",
+      "email": "admin@MngEnvMCAP874946.onmicrosoft.com",
+      "user_type": "Member",
+      "job_title": null,
+      "department": null,
+      "employee_id": null,
+      "employee_type": null,
+      "office_location": null,
+      "company_name": null
+    }
+  },
+  "entra_directory": {
+    "group_count": 3,
+    "groups": [
+      {
+        "id": "6d4b1da4-cb1d-4ab8-bd6a-b0ac623fd44d",
+        "name": "GitHub Admin",
+        "user_count": 1,
+        "users": [
+          {
+            "id": "e34b9383-e61a-490f-857e-a9aa84a621ed",
+            "name": "System Administrator",
+            "first_name": "System",
+            "last_name": "Administrator",
+            "upn": "admin@MngEnvMCAP874946.onmicrosoft.com",
+            "email": "admin@MngEnvMCAP874946.onmicrosoft.com",
+            "user_type": "Member",
+            "job_title": null,
+            "department": null,
+            "company_name": null,
+            "employee_id": null,
+            "employee_type": null,
+            "assigned_roles": [
+              "Global Reader"
+            ],
+            "role_category": "Admin"
+          }
+        ]
+      },
+      {
+        "id": "94baee21-13a3-42f7-8c97-cdeece26356e",
+        "name": "All Company",
+        "user_count": 1,
+        "users": [
+          {
+            "id": "e34b9383-e61a-490f-857e-a9aa84a621ed",
+            "name": "System Administrator",
+            "first_name": "System",
+            "last_name": "Administrator",
+            "upn": "admin@MngEnvMCAP874946.onmicrosoft.com",
+            "email": "admin@MngEnvMCAP874946.onmicrosoft.com",
+            "user_type": "Member",
+            "job_title": null,
+            "department": null,
+            "company_name": null,
+            "employee_id": null,
+            "employee_type": null,
+            "assigned_roles": [
+              "Global Reader"
+            ],
+            "role_category": "Admin"
+          }
+        ]
+      },
+      {
+        "id": "cff2a550-e851-4940-bfbd-2efa0946d1ee",
+        "name": "GitHub Copilot User",
+        "user_count": 1,
+        "users": [
+          {
+            "id": "e34b9383-e61a-490f-857e-a9aa84a621ed",
+            "name": "System Administrator",
+            "first_name": "System",
+            "last_name": "Administrator",
+            "upn": "admin@MngEnvMCAP874946.onmicrosoft.com",
+            "email": "admin@MngEnvMCAP874946.onmicrosoft.com",
+            "user_type": "Member",
+            "job_title": null,
+            "department": null,
+            "company_name": null,
+            "employee_id": null,
+            "employee_type": null,
+            "assigned_roles": [
+              "Global Reader"
+            ],
+            "role_category": "Admin"
+          }
+        ]
+      }
+    ],
+    "roles": {
+      "role_count": 8,
+      "items": [
+        {
+          "id": "00027df3-0f89-4404-964a-796b82a7a944",
+          "name": "Azure AD Joined Device Local Administrator",
+          "member_count": 0,
+          "members": []
+        },
+        {
+          "id": "0dde9759-1f7e-4b81-bf16-3c99138fc350",
+          "name": "Password Administrator",
+          "member_count": 0,
+          "members": []
+        },
+        {
+          "id": "50f6905c-d678-45e5-abaa-f947a1c7069a",
+          "name": "Security Administrator",
+          "member_count": 0,
+          "members": []
+        },
+        {
+          "id": "512f6787-ce2e-43cc-ad20-4100ca7c7dbf",
+          "name": "Global Administrator",
+          "member_count": 1,
+          "members": [
+            {
+              "id": "389cd491-fe54-4c3f-ae0d-b96d96fabc4a",
+              "name": "NotForUseBreakGlass",
+              "first_name": null,
+              "last_name": null,
+              "upn": "ms-breakglass@MngEnvMCAP874946.onmicrosoft.com",
+              "email": null,
+              "user_type": "Member",
+              "job_title": null,
+              "department": null,
+              "company_name": null,
+              "employee_id": null,
+              "employee_type": null
+            }
+          ]
+        },
+        {
+          "id": "8ca59ff5-2dda-4f17-80d8-65b963f428f6",
+          "name": "Privileged Role Administrator",
+          "member_count": 0,
+          "members": []
+        },
+        {
+          "id": "c1111eb9-bde6-40ea-b32f-e29bcbc8499a",
+          "name": "Directory Readers",
+          "member_count": 0,
+          "members": []
+        },
+        {
+          "id": "c41d0fb8-d5f8-446c-8e6c-376b376794f7",
+          "name": "Global Reader",
+          "member_count": 2,
+          "members": [
+            {
+              "id": "4a85c98b-d36f-47d5-af49-5642c64eec63",
+              "name": "Deepankar Borgohain",
+              "first_name": null,
+              "last_name": null,
+              "upn": "dborgohain@MngEnvMCAP874946.onmicrosoft.com",
+              "email": null,
+              "user_type": "Member",
+              "job_title": null,
+              "department": null,
+              "company_name": null,
+              "employee_id": null,
+              "employee_type": null
+            },
+            {
+              "id": "e34b9383-e61a-490f-857e-a9aa84a621ed",
+              "name": "System Administrator",
+              "first_name": "System",
+              "last_name": "Administrator",
+              "upn": "admin@MngEnvMCAP874946.onmicrosoft.com",
+              "email": "admin@MngEnvMCAP874946.onmicrosoft.com",
+              "user_type": "Member",
+              "job_title": null,
+              "department": null,
+              "company_name": null,
+              "employee_id": null,
+              "employee_type": null
+            }
+          ]
+        },
+        {
+          "id": "d2aa9b9f-fe49-4da1-94f6-8080fe9ef144",
+          "name": "User Administrator",
+          "member_count": 0,
+          "members": []
+        }
+      ]
+    },
+    "user_roles_summary": {
+      "admin_count": 3,
+      "user_count": 1,
+      "admins": [
+        {
+          "id": "e34b9383-e61a-490f-857e-a9aa84a621ed",
+          "name": "System Administrator",
+          "first_name": "System",
+          "last_name": "Administrator",
+          "upn": "admin@MngEnvMCAP874946.onmicrosoft.com",
+          "email": "admin@MngEnvMCAP874946.onmicrosoft.com",
+          "user_type": "Member",
+          "job_title": null,
+          "department": null,
+          "company_name": null,
+          "employee_id": null,
+          "employee_type": null,
+          "assigned_roles": [
+            "Global Reader"
+          ]
+        },
+        {
+          "id": "4a85c98b-d36f-47d5-af49-5642c64eec63",
+          "name": "Deepankar Borgohain",
+          "first_name": null,
+          "last_name": null,
+          "upn": "dborgohain@MngEnvMCAP874946.onmicrosoft.com",
+          "email": null,
+          "user_type": "Member",
+          "job_title": null,
+          "department": null,
+          "company_name": null,
+          "employee_id": null,
+          "employee_type": null,
+          "assigned_roles": [
+            "Global Reader"
+          ]
+        },
+        {
+          "id": "389cd491-fe54-4c3f-ae0d-b96d96fabc4a",
+          "name": "NotForUseBreakGlass",
+          "first_name": null,
+          "last_name": null,
+          "upn": "ms-breakglass@MngEnvMCAP874946.onmicrosoft.com",
+          "email": null,
+          "user_type": "Member",
+          "job_title": null,
+          "department": null,
+          "company_name": null,
+          "employee_id": null,
+          "employee_type": null,
+          "assigned_roles": [
+            "Global Administrator"
+          ]
+        }
+      ],
+      "users": [
+        {
+          "id": "3a50cfc7-f342-43de-8747-6dc15cd4f2c9",
+          "name": "Hello_check",
+          "first_name": null,
+          "last_name": null,
+          "upn": "hellocheck@MngEnvMCAP874946.onmicrosoft.com",
+          "email": null,
+          "user_type": "Member",
+          "job_title": null,
+          "department": null,
+          "company_name": null,
+          "employee_id": null,
+          "employee_type": null,
+          "assigned_roles": []
+        }
+      ]
+    }
+  },
+  "github_copilot": {
+    "seat_assigned": 27,
+    "last_activity": [
+      {
+        "assignee_login": "umaranit_octocps",
+        "last_activity": "2026-04-23T15:39:18+05:30"
+      },
+      {
+        "assignee_login": "sombaner_octocps",
+        "last_activity": "2026-08-04T11:04:25+05:30"
+      },
+      {
+        "assignee_login": "devrajmehta_octocps",
+        "last_activity": null
+      },
+      {
+        "assignee_login": "neildcruz_octocps",
+        "last_activity": "2026-01-22T16:12:49+05:30"
+      },
+      {
+        "assignee_login": "satomic_octocps",
+        "last_activity": null
+      },
+      {
+        "assignee_login": "jacwu_octocps",
+        "last_activity": null
+      },
+      {
+        "assignee_login": "shinyay_octocps",
+        "last_activity": null
+      },
+      {
+        "assignee_login": "jmahapol_octocps",
+        "last_activity": null
+      },
+      {
+        "assignee_login": "son7211_octocps",
+        "last_activity": null
+      },
+      {
+        "assignee_login": "loganporelle_octocps",
+        "last_activity": "2026-02-03T23:00:29+05:30"
+      },
+      {
+        "assignee_login": "deepankar_octocps",
+        "last_activity": "2025-12-22T15:54:58+05:30"
+      },
+      {
+        "assignee_login": "vandana_octocps",
+        "last_activity": "2026-02-03T23:47:55+05:30"
+      },
+      {
+        "assignee_login": "jonjozwiak_octocps",
+        "last_activity": "2026-08-12T22:14:01+05:30"
+      },
+      {
+        "assignee_login": "evgenijrenke_octocps",
+        "last_activity": "2026-06-01T11:00:51+05:30"
+      },
+      {
+        "assignee_login": "dylan-rinker_octocps",
+        "last_activity": "2026-07-06T21:53:15+05:30"
+      },
+      {
+        "assignee_login": "samqbush_octocps",
+        "last_activity": "2026-06-04T00:46:20+05:30"
+      },
+      {
+        "assignee_login": "visrani_octocps",
+        "last_activity": null
+      },
+      {
+        "assignee_login": "dhiwakark_octocps",
+        "last_activity": null
+      },
+      {
+        "assignee_login": "ambilykk_octocps",
+        "last_activity": null
+      },
+      {
+        "assignee_login": "gupta-kartik_octocps",
+        "last_activity": "2026-06-09T12:32:19+05:30"
+      },
+      {
+        "assignee_login": "abhi-singhs_octocps",
+        "last_activity": null
+      },
+      {
+        "assignee_login": "malantin_octocps",
+        "last_activity": null
+      },
+      {
+        "assignee_login": "helaili_octocps",
+        "last_activity": null
+      },
+      {
+        "assignee_login": "tgrall_octocps",
+        "last_activity": null
+      },
+      {
+        "assignee_login": "davelosert_octocps",
+        "last_activity": null
+      },
+      {
+        "assignee_login": "ghsioux_octocps",
+        "last_activity": null
+      },
+      {
+        "assignee_login": "bmanterdev_octocps",
+        "last_activity": "2026-07-30T15:00:20+05:30"
+      }
+    ],
+    "active_users": 3,
+    "usage_metrics": {
+      "activity_window_days": 30,
+      "total_seats": 27,
+      "active_users": 3,
+      "inactive_users": 24,
+      "active_percent": 11.11
+    },
+    "seats": [
+      {
+        "seat_assigned": "umaranit_octocps",
+        "assignee_login": "umaranit_octocps",
+        "assignee_id": 174559567,
+        "assignee_type": "User",
+        "last_activity": "2026-04-23T15:39:18+05:30",
+        "is_active": false,
+        "created_at": "2025-10-07T18:59:57+05:30",
+        "updated_at": "2025-10-07T18:59:57+05:30",
+        "pending_cancellation_date": null,
+        "plan_type": "business"
+      },
+      {
+        "seat_assigned": "sombaner_octocps",
+        "assignee_login": "sombaner_octocps",
+        "assignee_id": 174559568,
+        "assignee_type": "User",
+        "last_activity": "2026-08-04T11:04:25+05:30",
+        "is_active": true,
+        "created_at": "2025-10-07T18:59:57+05:30",
+        "updated_at": "2025-10-07T18:59:57+05:30",
+        "pending_cancellation_date": null,
+        "plan_type": "business"
+      },
+      {
+        "seat_assigned": "devrajmehta_octocps",
+        "assignee_login": "devrajmehta_octocps",
+        "assignee_id": 235835490,
+        "assignee_type": "User",
+        "last_activity": null,
+        "is_active": false,
+        "created_at": "2025-10-07T18:59:57+05:30",
+        "updated_at": "2025-10-07T18:59:57+05:30",
+        "pending_cancellation_date": null,
+        "plan_type": "business"
+      },
+      {
+        "seat_assigned": "neildcruz_octocps",
+        "assignee_login": "neildcruz_octocps",
+        "assignee_id": 190603859,
+        "assignee_type": "User",
+        "last_activity": "2026-01-22T16:12:49+05:30",
+        "is_active": false,
+        "created_at": "2025-10-08T15:54:30+05:30",
+        "updated_at": "2025-10-08T15:54:30+05:30",
+        "pending_cancellation_date": null,
+        "plan_type": "business"
+      },
+      {
+        "seat_assigned": "satomic_octocps",
+        "assignee_login": "satomic_octocps",
+        "assignee_id": 187005165,
+        "assignee_type": "User",
+        "last_activity": null,
+        "is_active": false,
+        "created_at": "2025-10-08T15:55:04+05:30",
+        "updated_at": "2025-10-08T15:55:04+05:30",
+        "pending_cancellation_date": null,
+        "plan_type": "business"
+      },
+      {
+        "seat_assigned": "jacwu_octocps",
+        "assignee_login": "jacwu_octocps",
+        "assignee_id": 189160503,
+        "assignee_type": "User",
+        "last_activity": null,
+        "is_active": false,
+        "created_at": "2025-10-08T15:55:14+05:30",
+        "updated_at": "2025-10-08T15:55:14+05:30",
+        "pending_cancellation_date": null,
+        "plan_type": "business"
+      },
+      {
+        "seat_assigned": "shinyay_octocps",
+        "assignee_login": "shinyay_octocps",
+        "assignee_id": 168105748,
+        "assignee_type": "User",
+        "last_activity": null,
+        "is_active": false,
+        "created_at": "2025-10-08T15:55:21+05:30",
+        "updated_at": "2025-10-08T15:55:21+05:30",
+        "pending_cancellation_date": null,
+        "plan_type": "business"
+      },
+      {
+        "seat_assigned": "jmahapol_octocps",
+        "assignee_login": "jmahapol_octocps",
+        "assignee_id": 213756209,
+        "assignee_type": "User",
+        "last_activity": null,
+        "is_active": false,
+        "created_at": "2025-10-08T15:55:31+05:30",
+        "updated_at": "2025-10-08T15:55:31+05:30",
+        "pending_cancellation_date": null,
+        "plan_type": "business"
+      },
+      {
+        "seat_assigned": "son7211_octocps",
+        "assignee_login": "son7211_octocps",
+        "assignee_id": 194756253,
+        "assignee_type": "User",
+        "last_activity": null,
+        "is_active": false,
+        "created_at": "2025-10-08T15:55:51+05:30",
+        "updated_at": "2025-10-08T15:55:51+05:30",
+        "pending_cancellation_date": null,
+        "plan_type": "business"
+      },
+      {
+        "seat_assigned": "loganporelle_octocps",
+        "assignee_login": "loganporelle_octocps",
+        "assignee_id": 164539791,
+        "assignee_type": "User",
+        "last_activity": "2026-02-03T23:00:29+05:30",
+        "is_active": false,
+        "created_at": "2025-10-10T09:11:03+05:30",
+        "updated_at": "2025-10-10T09:11:03+05:30",
+        "pending_cancellation_date": null,
+        "plan_type": "business"
+      },
+      {
+        "seat_assigned": "deepankar_octocps",
+        "assignee_login": "deepankar_octocps",
+        "assignee_id": 240432898,
+        "assignee_type": "User",
+        "last_activity": "2025-12-22T15:54:58+05:30",
+        "is_active": false,
+        "created_at": "2025-10-27T12:55:16+05:30",
+        "updated_at": "2025-10-27T12:55:16+05:30",
+        "pending_cancellation_date": null,
+        "plan_type": "business"
+      },
+      {
+        "seat_assigned": "vandana_octocps",
+        "assignee_login": "vandana_octocps",
+        "assignee_id": 240432901,
+        "assignee_type": "User",
+        "last_activity": "2026-02-03T23:47:55+05:30",
+        "is_active": false,
+        "created_at": "2025-10-27T12:55:16+05:30",
+        "updated_at": "2025-10-27T12:55:16+05:30",
+        "pending_cancellation_date": null,
+        "plan_type": "business"
+      },
+      {
+        "seat_assigned": "jonjozwiak_octocps",
+        "assignee_login": "jonjozwiak_octocps",
+        "assignee_id": 164538411,
+        "assignee_type": "User",
+        "last_activity": "2026-08-12T22:14:01+05:30",
+        "is_active": true,
+        "created_at": "2026-01-13T03:29:42+05:30",
+        "updated_at": "2026-01-13T03:29:42+05:30",
+        "pending_cancellation_date": null,
+        "plan_type": "business"
+      },
+      {
+        "seat_assigned": "evgenijrenke_octocps",
+        "assignee_login": "evgenijrenke_octocps",
+        "assignee_id": 215947960,
+        "assignee_type": "User",
+        "last_activity": "2026-06-01T11:00:51+05:30",
+        "is_active": false,
+        "created_at": "2026-03-02T17:07:43+05:30",
+        "updated_at": "2026-03-02T17:07:43+05:30",
+        "pending_cancellation_date": null,
+        "plan_type": "business"
+      },
+      {
+        "seat_assigned": "dylan-rinker_octocps",
+        "assignee_login": "dylan-rinker_octocps",
+        "assignee_id": 164539766,
+        "assignee_type": "User",
+        "last_activity": "2026-07-06T21:53:15+05:30",
+        "is_active": false,
+        "created_at": "2026-03-03T03:23:21+05:30",
+        "updated_at": "2026-03-03T03:23:21+05:30",
+        "pending_cancellation_date": null,
+        "plan_type": "business"
+      },
+      {
+        "seat_assigned": "samqbush_octocps",
+        "assignee_login": "samqbush_octocps",
+        "assignee_id": 191292032,
+        "assignee_type": "User",
+        "last_activity": "2026-06-04T00:46:20+05:30",
+        "is_active": false,
+        "created_at": "2026-03-03T03:23:21+05:30",
+        "updated_at": "2026-03-03T03:23:21+05:30",
+        "pending_cancellation_date": null,
+        "plan_type": "business"
+      },
+      {
+        "seat_assigned": "visrani_octocps",
+        "assignee_login": "visrani_octocps",
+        "assignee_id": 165284131,
+        "assignee_type": "User",
+        "last_activity": null,
+        "is_active": false,
+        "created_at": "2026-04-10T15:35:43+05:30",
+        "updated_at": "2026-04-10T15:35:43+05:30",
+        "pending_cancellation_date": null,
+        "plan_type": "business"
+      },
+      {
+        "seat_assigned": "dhiwakark_octocps",
+        "assignee_login": "dhiwakark_octocps",
+        "assignee_id": 165284134,
+        "assignee_type": "User",
+        "last_activity": null,
+        "is_active": false,
+        "created_at": "2026-04-10T15:35:43+05:30",
+        "updated_at": "2026-04-10T15:35:43+05:30",
+        "pending_cancellation_date": null,
+        "plan_type": "business"
+      },
+      {
+        "seat_assigned": "ambilykk_octocps",
+        "assignee_login": "ambilykk_octocps",
+        "assignee_id": 165284135,
+        "assignee_type": "User",
+        "last_activity": null,
+        "is_active": false,
+        "created_at": "2026-04-10T15:35:43+05:30",
+        "updated_at": "2026-04-10T15:35:43+05:30",
+        "pending_cancellation_date": null,
+        "plan_type": "business"
+      },
+      {
+        "seat_assigned": "gupta-kartik_octocps",
+        "assignee_login": "gupta-kartik_octocps",
+        "assignee_id": 165284137,
+        "assignee_type": "User",
+        "last_activity": "2026-06-09T12:32:19+05:30",
+        "is_active": false,
+        "created_at": "2026-04-10T15:35:43+05:30",
+        "updated_at": "2026-04-10T15:35:43+05:30",
+        "pending_cancellation_date": null,
+        "plan_type": "business"
+      },
+      {
+        "seat_assigned": "abhi-singhs_octocps",
+        "assignee_login": "abhi-singhs_octocps",
+        "assignee_id": 218062761,
+        "assignee_type": "User",
+        "last_activity": null,
+        "is_active": false,
+        "created_at": "2026-04-10T15:35:43+05:30",
+        "updated_at": "2026-04-10T15:35:43+05:30",
+        "pending_cancellation_date": null,
+        "plan_type": "business"
+      },
+      {
+        "seat_assigned": "malantin_octocps",
+        "assignee_login": "malantin_octocps",
+        "assignee_id": 164539705,
+        "assignee_type": "User",
+        "last_activity": null,
+        "is_active": false,
+        "created_at": "2026-07-13T15:52:58+05:30",
+        "updated_at": "2026-07-13T15:52:58+05:30",
+        "pending_cancellation_date": null,
+        "plan_type": "business"
+      },
+      {
+        "seat_assigned": "helaili_octocps",
+        "assignee_login": "helaili_octocps",
+        "assignee_id": 164539706,
+        "assignee_type": "User",
+        "last_activity": null,
+        "is_active": false,
+        "created_at": "2026-07-13T15:52:58+05:30",
+        "updated_at": "2026-07-13T15:52:58+05:30",
+        "pending_cancellation_date": null,
+        "plan_type": "business"
+      },
+      {
+        "seat_assigned": "tgrall_octocps",
+        "assignee_login": "tgrall_octocps",
+        "assignee_id": 164539709,
+        "assignee_type": "User",
+        "last_activity": null,
+        "is_active": false,
+        "created_at": "2026-07-13T15:52:58+05:30",
+        "updated_at": "2026-07-13T15:52:58+05:30",
+        "pending_cancellation_date": null,
+        "plan_type": "business"
+      },
+      {
+        "seat_assigned": "davelosert_octocps",
+        "assignee_login": "davelosert_octocps",
+        "assignee_id": 171698605,
+        "assignee_type": "User",
+        "last_activity": null,
+        "is_active": false,
+        "created_at": "2026-07-13T15:52:58+05:30",
+        "updated_at": "2026-07-13T15:52:58+05:30",
+        "pending_cancellation_date": null,
+        "plan_type": "business"
+      },
+      {
+        "seat_assigned": "ghsioux_octocps",
+        "assignee_login": "ghsioux_octocps",
+        "assignee_id": 173257871,
+        "assignee_type": "User",
+        "last_activity": null,
+        "is_active": false,
+        "created_at": "2026-07-13T15:52:58+05:30",
+        "updated_at": "2026-07-13T15:52:58+05:30",
+        "pending_cancellation_date": null,
+        "plan_type": "business"
+      },
+      {
+        "seat_assigned": "bmanterdev_octocps",
+        "assignee_login": "bmanterdev_octocps",
+        "assignee_id": 267667611,
+        "assignee_type": "User",
+        "last_activity": "2026-07-30T15:00:20+05:30",
+        "is_active": true,
+        "created_at": "2026-07-30T15:08:56+05:30",
+        "updated_at": "2026-07-30T15:08:56+05:30",
+        "pending_cancellation_date": null,
+        "plan_type": "business"
+      }
+    ]
+  }
+}

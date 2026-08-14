@@ -1,0 +1,23 @@
+{
+  "user_name": "System Administrator",
+  "first_name": "System",
+  "last_name": "Administrator",
+  "user_type": "Member",
+  "department": null,
+  "manager": null,
+  "employee_details": {
+    "id": "e34b9383-e61a-490f-857e-a9aa84a621ed",
+    "display_name": "System Administrator",
+    "first_name": "System",
+    "last_name": "Administrator",
+    "upn": "admin@MngEnvMCAP874946.onmicrosoft.com",
+    "email": "admin@MngEnvMCAP874946.onmicrosoft.com",
+    "user_type": "Member",
+    "job_title": null,
+    "department": null,
+    "employee_id": null,
+    "employee_type": null,
+    "office_location": null,
+    "company_name": null
+  }
+}

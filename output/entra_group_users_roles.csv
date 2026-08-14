@@ -1,0 +1,4 @@
+group_name,user_name,first_name,last_name,user_upn,user_email,user_type,job_title,department,company_name,employee_id,employee_type,role_category,assigned_roles
+GitHub Admin,System Administrator,System,Administrator,admin@MngEnvMCAP874946.onmicrosoft.com,admin@MngEnvMCAP874946.onmicrosoft.com,Member,,,,,,Admin,Global Reader
+All Company,System Administrator,System,Administrator,admin@MngEnvMCAP874946.onmicrosoft.com,admin@MngEnvMCAP874946.onmicrosoft.com,Member,,,,,,Admin,Global Reader
+GitHub Copilot User,System Administrator,System,Administrator,admin@MngEnvMCAP874946.onmicrosoft.com,admin@MngEnvMCAP874946.onmicrosoft.com,Member,,,,,,Admin,Global Reader

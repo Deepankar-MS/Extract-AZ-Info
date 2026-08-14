@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Entra and Copilot Report</title>
+  <style>
+    :root {
+      --bg: #f6f8fb;
+      --panel: #ffffff;
+      --text: #0f172a;
+      --muted: #475569;
+      --border: #dbe3ef;
+      --accent: #0b5cab;
+      --warn: #9a3412;
+    }
+    body {
+      margin: 0;
+      font-family: Segoe UI, Tahoma, sans-serif;
+      color: var(--text);
+      background: linear-gradient(140deg, #eef4ff 0%, var(--bg) 55%, #fdf8f2 100%);
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+    h1 {
+      margin: 0 0 6px;
+      color: var(--accent);
+      font-size: 30px;
+    }
+    .sub {
+      margin: 0 0 18px;
+      color: var(--muted);
+    }
+    .warn {
+      margin: 8px 0;
+      padding: 10px 12px;
+      border: 1px solid #fdba74;
+      background: #fff7ed;
+      color: var(--warn);
+      border-radius: 8px;
+      white-space: pre-wrap;
+    }
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 14px;
+      margin-bottom: 16px;
+      box-shadow: 0 5px 18px rgba(15, 23, 42, 0.06);
+    }
+    h2 {
+      margin: 0 0 10px;
+      font-size: 18px;
+    }
+    .table-wrap {
+      overflow-x: auto;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 720px;
+    }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 8px 10px;
+      text-align: left;
+      vertical-align: top;
+      font-size: 14px;
+    }
+    th {
+      background: #eef5ff;
+      color: #0b2e59;
+      position: sticky;
+      top: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Entra and GitHub Copilot Report</h1>
+    <p class="sub">Generated from combined_data.json</p>
+    
+    
+    <section class="panel"><h2>User Profile</h2><div class="table-wrap"><table><thead><tr><th>user_name</th><th>first_name</th><th>last_name</th><th>user_type</th><th>department</th><th>manager</th><th>employee_upn</th><th>employee_email</th><th>job_title</th><th>office_location</th><th>company_name</th></tr></thead><tbody><tr><td>System Administrator</td><td>System</td><td>Administrator</td><td>Member</td><td></td><td></td><td>admin@MngEnvMCAP874946.onmicrosoft.com</td><td>admin@MngEnvMCAP874946.onmicrosoft.com</td><td></td><td></td><td></td></tr></tbody></table></div></section><section class="panel"><h2>Groups Summary</h2><div class="table-wrap"><table><thead><tr><th>group_name</th><th>group_id</th><th>user_count</th></tr></thead><tbody><tr><td>GitHub Admin</td><td>6d4b1da4-cb1d-4ab8-bd6a-b0ac623fd44d</td><td>1</td></tr><tr><td>All Company</td><td>94baee21-13a3-42f7-8c97-cdeece26356e</td><td>1</td></tr><tr><td>GitHub Copilot User</td><td>cff2a550-e851-4940-bfbd-2efa0946d1ee</td><td>1</td></tr></tbody></table></div></section><section class="panel"><h2>Group Members</h2><div class="table-wrap"><table><thead><tr><th>group_name</th><th>user_name</th><th>first_name</th><th>last_name</th><th>user_upn</th><th>user_email</th><th>user_type</th><th>job_title</th><th>department</th><th>company_name</th><th>employee_id</th><th>employee_type</th><th>role_category</th><th>assigned_roles</th></tr></thead><tbody><tr><td>GitHub Admin</td><td>System Administrator</td><td>System</td><td>Administrator</td><td>admin@MngEnvMCAP874946.onmicrosoft.com</td><td>admin@MngEnvMCAP874946.onmicrosoft.com</td><td>Member</td><td></td><td></td><td></td><td></td><td></td><td>Admin</td><td>Global Reader</td></tr><tr><td>All Company</td><td>System Administrator</td><td>System</td><td>Administrator</td><td>admin@MngEnvMCAP874946.onmicrosoft.com</td><td>admin@MngEnvMCAP874946.onmicrosoft.com</td><td>Member</td><td></td><td></td><td></td><td></td><td></td><td>Admin</td><td>Global Reader</td></tr><tr><td>GitHub Copilot User</td><td>System Administrator</td><td>System</td><td>Administrator</td><td>admin@MngEnvMCAP874946.onmicrosoft.com</td><td>admin@MngEnvMCAP874946.onmicrosoft.com</td><td>Member</td><td></td><td></td><td></td><td></td><td></td><td>Admin</td><td>Global Reader</td></tr></tbody></table></div></section><section class="panel"><h2>Directory Roles</h2><div class="table-wrap"><table><thead><tr><th>role_name</th><th>role_id</th><th>member_count</th></tr></thead><tbody><tr><td>Azure AD Joined Device Local Administrator</td><td>00027df3-0f89-4404-964a-796b82a7a944</td><td>0</td></tr><tr><td>Password Administrator</td><td>0dde9759-1f7e-4b81-bf16-3c99138fc350</td><td>0</td></tr><tr><td>Security Administrator</td><td>50f6905c-d678-45e5-abaa-f947a1c7069a</td><td>0</td></tr><tr><td>Global Administrator</td><td>512f6787-ce2e-43cc-ad20-4100ca7c7dbf</td><td>1</td></tr><tr><td>Privileged Role Administrator</td><td>8ca59ff5-2dda-4f17-80d8-65b963f428f6</td><td>0</td></tr><tr><td>Directory Readers</td><td>c1111eb9-bde6-40ea-b32f-e29bcbc8499a</td><td>0</td></tr><tr><td>Global Reader</td><td>c41d0fb8-d5f8-446c-8e6c-376b376794f7</td><td>2</td></tr><tr><td>User Administrator</td><td>d2aa9b9f-fe49-4da1-94f6-8080fe9ef144</td><td>0</td></tr></tbody></table></div></section><section class="panel"><h2>Admins</h2><div class="table-wrap"><table><thead><tr><th>name</th><th>first_name</th><th>last_name</th><th>upn</th><th>email</th><th>user_type</th><th>job_title</th><th>department</th><th>company_name</th><th>employee_id</th><th>employee_type</th><th>assigned_roles</th></tr></thead><tbody><tr><td>System Administrator</td><td>System</td><td>Administrator</td><td>admin@MngEnvMCAP874946.onmicrosoft.com</td><td>admin@MngEnvMCAP874946.onmicrosoft.com</td><td>Member</td><td></td><td></td><td></td><td></td><td></td><td>Global Reader</td></tr><tr><td>Deepankar Borgohain</td><td></td><td></td><td>dborgohain@MngEnvMCAP874946.onmicrosoft.com</td><td></td><td>Member</td><td></td><td></td><td></td><td></td><td></td><td>Global Reader</td></tr><tr><td>NotForUseBreakGlass</td><td></td><td></td><td>ms-breakglass@MngEnvMCAP874946.onmicrosoft.com</td><td></td><td>Member</td><td></td><td></td><td></td><td></td><td></td><td>Global Administrator</td></tr></tbody></table></div></section><section class="panel"><h2>Users</h2><div class="table-wrap"><table><thead><tr><th>name</th><th>first_name</th><th>last_name</th><th>upn</th><th>email</th><th>user_type</th><th>job_title</th><th>department</th><th>company_name</th><th>employee_id</th><th>employee_type</th><th>assigned_roles</th></tr></thead><tbody><tr><td>Hello_check</td><td></td><td></td><td>hellocheck@MngEnvMCAP874946.onmicrosoft.com</td><td></td><td>Member</td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table></div></section><section class="panel"><h2>Copilot Usage Summary</h2><div class="table-wrap"><table><thead><tr><th>activity_window_days</th><th>total_seats</th><th>active_users</th><th>inactive_users</th><th>active_percent</th></tr></thead><tbody><tr><td>30</td><td>27</td><td>3</td><td>24</td><td>11.11</td></tr></tbody></table></div></section><section class="panel"><h2>Copilot Seats</h2><div class="table-wrap"><table><thead><tr><th>seat_assigned</th><th>assignee_login</th><th>assignee_id</th><th>assignee_type</th><th>last_activity</th><th>is_active</th><th>plan_type</th></tr></thead><tbody><tr><td>umaranit_octocps</td><td>umaranit_octocps</td><td>174559567</td><td>User</td><td>2026-04-23T15:39:18+05:30</td><td>False</td><td>business</td></tr><tr><td>sombaner_octocps</td><td>sombaner_octocps</td><td>174559568</td><td>User</td><td>2026-08-04T11:04:25+05:30</td><td>True</td><td>business</td></tr><tr><td>devrajmehta_octocps</td><td>devrajmehta_octocps</td><td>235835490</td><td>User</td><td></td><td>False</td><td>business</td></tr><tr><td>neildcruz_octocps</td><td>neildcruz_octocps</td><td>190603859</td><td>User</td><td>2026-01-22T16:12:49+05:30</td><td>False</td><td>business</td></tr><tr><td>satomic_octocps</td><td>satomic_octocps</td><td>187005165</td><td>User</td><td></td><td>False</td><td>business</td></tr><tr><td>jacwu_octocps</td><td>jacwu_octocps</td><td>189160503</td><td>User</td><td></td><td>False</td><td>business</td></tr><tr><td>shinyay_octocps</td><td>shinyay_octocps</td><td>168105748</td><td>User</td><td></td><td>False</td><td>business</td></tr><tr><td>jmahapol_octocps</td><td>jmahapol_octocps</td><td>213756209</td><td>User</td><td></td><td>False</td><td>business</td></tr><tr><td>son7211_octocps</td><td>son7211_octocps</td><td>194756253</td><td>User</td><td></td><td>False</td><td>business</td></tr><tr><td>loganporelle_octocps</td><td>loganporelle_octocps</td><td>164539791</td><td>User</td><td>2026-02-03T23:00:29+05:30</td><td>False</td><td>business</td></tr><tr><td>deepankar_octocps</td><td>deepankar_octocps</td><td>240432898</td><td>User</td><td>2025-12-22T15:54:58+05:30</td><td>False</td><td>business</td></tr><tr><td>vandana_octocps</td><td>vandana_octocps</td><td>240432901</td><td>User</td><td>2026-02-03T23:47:55+05:30</td><td>False</td><td>business</td></tr><tr><td>jonjozwiak_octocps</td><td>jonjozwiak_octocps</td><td>164538411</td><td>User</td><td>2026-08-12T22:14:01+05:30</td><td>True</td><td>business</td></tr><tr><td>evgenijrenke_octocps</td><td>evgenijrenke_octocps</td><td>215947960</td><td>User</td><td>2026-06-01T11:00:51+05:30</td><td>False</td><td>business</td></tr><tr><td>dylan-rinker_octocps</td><td>dylan-rinker_octocps</td><td>164539766</td><td>User</td><td>2026-07-06T21:53:15+05:30</td><td>False</td><td>business</td></tr><tr><td>samqbush_octocps</td><td>samqbush_octocps</td><td>191292032</td><td>User</td><td>2026-06-04T00:46:20+05:30</td><td>False</td><td>business</td></tr><tr><td>visrani_octocps</td><td>visrani_octocps</td><td>165284131</td><td>User</td><td></td><td>False</td><td>business</td></tr><tr><td>dhiwakark_octocps</td><td>dhiwakark_octocps</td><td>165284134</td><td>User</td><td></td><td>False</td><td>business</td></tr><tr><td>ambilykk_octocps</td><td>ambilykk_octocps</td><td>165284135</td><td>User</td><td></td><td>False</td><td>business</td></tr><tr><td>gupta-kartik_octocps</td><td>gupta-kartik_octocps</td><td>165284137</td><td>User</td><td>2026-06-09T12:32:19+05:30</td><td>False</td><td>business</td></tr><tr><td>abhi-singhs_octocps</td><td>abhi-singhs_octocps</td><td>218062761</td><td>User</td><td></td><td>False</td><td>business</td></tr><tr><td>malantin_octocps</td><td>malantin_octocps</td><td>164539705</td><td>User</td><td></td><td>False</td><td>business</td></tr><tr><td>helaili_octocps</td><td>helaili_octocps</td><td>164539706</td><td>User</td><td></td><td>False</td><td>business</td></tr><tr><td>tgrall_octocps</td><td>tgrall_octocps</td><td>164539709</td><td>User</td><td></td><td>False</td><td>business</td></tr><tr><td>davelosert_octocps</td><td>davelosert_octocps</td><td>171698605</td><td>User</td><td></td><td>False</td><td>business</td></tr><tr><td>ghsioux_octocps</td><td>ghsioux_octocps</td><td>173257871</td><td>User</td><td></td><td>False</td><td>business</td></tr><tr><td>bmanterdev_octocps</td><td>bmanterdev_octocps</td><td>267667611</td><td>User</td><td>2026-07-30T15:00:20+05:30</td><td>True</td><td>business</td></tr></tbody></table></div></section>
+  </div>
+</body>
+</html>

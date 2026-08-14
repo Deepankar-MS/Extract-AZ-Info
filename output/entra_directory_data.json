@@ -1,0 +1,251 @@
+{
+  "group_count": 3,
+  "groups": [
+    {
+      "id": "6d4b1da4-cb1d-4ab8-bd6a-b0ac623fd44d",
+      "name": "GitHub Admin",
+      "user_count": 1,
+      "users": [
+        {
+          "id": "e34b9383-e61a-490f-857e-a9aa84a621ed",
+          "name": "System Administrator",
+          "first_name": "System",
+          "last_name": "Administrator",
+          "upn": "admin@MngEnvMCAP874946.onmicrosoft.com",
+          "email": "admin@MngEnvMCAP874946.onmicrosoft.com",
+          "user_type": "Member",
+          "job_title": null,
+          "department": null,
+          "company_name": null,
+          "employee_id": null,
+          "employee_type": null,
+          "assigned_roles": [
+            "Global Reader"
+          ],
+          "role_category": "Admin"
+        }
+      ]
+    },
+    {
+      "id": "94baee21-13a3-42f7-8c97-cdeece26356e",
+      "name": "All Company",
+      "user_count": 1,
+      "users": [
+        {
+          "id": "e34b9383-e61a-490f-857e-a9aa84a621ed",
+          "name": "System Administrator",
+          "first_name": "System",
+          "last_name": "Administrator",
+          "upn": "admin@MngEnvMCAP874946.onmicrosoft.com",
+          "email": "admin@MngEnvMCAP874946.onmicrosoft.com",
+          "user_type": "Member",
+          "job_title": null,
+          "department": null,
+          "company_name": null,
+          "employee_id": null,
+          "employee_type": null,
+          "assigned_roles": [
+            "Global Reader"
+          ],
+          "role_category": "Admin"
+        }
+      ]
+    },
+    {
+      "id": "cff2a550-e851-4940-bfbd-2efa0946d1ee",
+      "name": "GitHub Copilot User",
+      "user_count": 1,
+      "users": [
+        {
+          "id": "e34b9383-e61a-490f-857e-a9aa84a621ed",
+          "name": "System Administrator",
+          "first_name": "System",
+          "last_name": "Administrator",
+          "upn": "admin@MngEnvMCAP874946.onmicrosoft.com",
+          "email": "admin@MngEnvMCAP874946.onmicrosoft.com",
+          "user_type": "Member",
+          "job_title": null,
+          "department": null,
+          "company_name": null,
+          "employee_id": null,
+          "employee_type": null,
+          "assigned_roles": [
+            "Global Reader"
+          ],
+          "role_category": "Admin"
+        }
+      ]
+    }
+  ],
+  "roles": {
+    "role_count": 8,
+    "items": [
+      {
+        "id": "00027df3-0f89-4404-964a-796b82a7a944",
+        "name": "Azure AD Joined Device Local Administrator",
+        "member_count": 0,
+        "members": []
+      },
+      {
+        "id": "0dde9759-1f7e-4b81-bf16-3c99138fc350",
+        "name": "Password Administrator",
+        "member_count": 0,
+        "members": []
+      },
+      {
+        "id": "50f6905c-d678-45e5-abaa-f947a1c7069a",
+        "name": "Security Administrator",
+        "member_count": 0,
+        "members": []
+      },
+      {
+        "id": "512f6787-ce2e-43cc-ad20-4100ca7c7dbf",
+        "name": "Global Administrator",
+        "member_count": 1,
+        "members": [
+          {
+            "id": "389cd491-fe54-4c3f-ae0d-b96d96fabc4a",
+            "name": "NotForUseBreakGlass",
+            "first_name": null,
+            "last_name": null,
+            "upn": "ms-breakglass@MngEnvMCAP874946.onmicrosoft.com",
+            "email": null,
+            "user_type": "Member",
+            "job_title": null,
+            "department": null,
+            "company_name": null,
+            "employee_id": null,
+            "employee_type": null
+          }
+        ]
+      },
+      {
+        "id": "8ca59ff5-2dda-4f17-80d8-65b963f428f6",
+        "name": "Privileged Role Administrator",
+        "member_count": 0,
+        "members": []
+      },
+      {
+        "id": "c1111eb9-bde6-40ea-b32f-e29bcbc8499a",
+        "name": "Directory Readers",
+        "member_count": 0,
+        "members": []
+      },
+      {
+        "id": "c41d0fb8-d5f8-446c-8e6c-376b376794f7",
+        "name": "Global Reader",
+        "member_count": 2,
+        "members": [
+          {
+            "id": "4a85c98b-d36f-47d5-af49-5642c64eec63",
+            "name": "Deepankar Borgohain",
+            "first_name": null,
+            "last_name": null,
+            "upn": "dborgohain@MngEnvMCAP874946.onmicrosoft.com",
+            "email": null,
+            "user_type": "Member",
+            "job_title": null,
+            "department": null,
+            "company_name": null,
+            "employee_id": null,
+            "employee_type": null
+          },
+          {
+            "id": "e34b9383-e61a-490f-857e-a9aa84a621ed",
+            "name": "System Administrator",
+            "first_name": "System",
+            "last_name": "Administrator",
+            "upn": "admin@MngEnvMCAP874946.onmicrosoft.com",
+            "email": "admin@MngEnvMCAP874946.onmicrosoft.com",
+            "user_type": "Member",
+            "job_title": null,
+            "department": null,
+            "company_name": null,
+            "employee_id": null,
+            "employee_type": null
+          }
+        ]
+      },
+      {
+        "id": "d2aa9b9f-fe49-4da1-94f6-8080fe9ef144",
+        "name": "User Administrator",
+        "member_count": 0,
+        "members": []
+      }
+    ]
+  },
+  "user_roles_summary": {
+    "admin_count": 3,
+    "user_count": 1,
+    "admins": [
+      {
+        "id": "e34b9383-e61a-490f-857e-a9aa84a621ed",
+        "name": "System Administrator",
+        "first_name": "System",
+        "last_name": "Administrator",
+        "upn": "admin@MngEnvMCAP874946.onmicrosoft.com",
+        "email": "admin@MngEnvMCAP874946.onmicrosoft.com",
+        "user_type": "Member",
+        "job_title": null,
+        "department": null,
+        "company_name": null,
+        "employee_id": null,
+        "employee_type": null,
+        "assigned_roles": [
+          "Global Reader"
+        ]
+      },
+      {
+        "id": "4a85c98b-d36f-47d5-af49-5642c64eec63",
+        "name": "Deepankar Borgohain",
+        "first_name": null,
+        "last_name": null,
+        "upn": "dborgohain@MngEnvMCAP874946.onmicrosoft.com",
+        "email": null,
+        "user_type": "Member",
+        "job_title": null,
+        "department": null,
+        "company_name": null,
+        "employee_id": null,
+        "employee_type": null,
+        "assigned_roles": [
+          "Global Reader"
+        ]
+      },
+      {
+        "id": "389cd491-fe54-4c3f-ae0d-b96d96fabc4a",
+        "name": "NotForUseBreakGlass",
+        "first_name": null,
+        "last_name": null,
+        "upn": "ms-breakglass@MngEnvMCAP874946.onmicrosoft.com",
+        "email": null,
+        "user_type": "Member",
+        "job_title": null,
+        "department": null,
+        "company_name": null,
+        "employee_id": null,
+        "employee_type": null,
+        "assigned_roles": [
+          "Global Administrator"
+        ]
+      }
+    ],
+    "users": [
+      {
+        "id": "3a50cfc7-f342-43de-8747-6dc15cd4f2c9",
+        "name": "Hello_check",
+        "first_name": null,
+        "last_name": null,
+        "upn": "hellocheck@MngEnvMCAP874946.onmicrosoft.com",
+        "email": null,
+        "user_type": "Member",
+        "job_title": null,
+        "department": null,
+        "company_name": null,
+        "employee_id": null,
+        "employee_type": null,
+        "assigned_roles": []
+      }
+    ]
+  }
+}
